@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    background-color: black;
+}
+
+.d{
+    width: 0.4%;
+    height: 100vh;
+    top:0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    transition: 0.1s;
+    z-index: 1;
+}
+
+.backd{
+    width: 0.4%;
+    height: 99vh;
+    top:0;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+}
+
+.text{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    color: red;
+    transform: translateX(-50%);
+    z-index: 0;
+    font-size: 50pt;
+}
